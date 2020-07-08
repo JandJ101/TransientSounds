@@ -2,9 +2,7 @@ var nav = {};
 
 nav.nav = `
 <a class="navbar-brand" href="/">
-            <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-            TRANSIENT SOUNDS
-          </a>
+            <img src="./img/logo.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="" loading="lazy">TRANSIENT SOUNDS</a>
         
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
