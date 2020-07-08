@@ -17,12 +17,12 @@ var listPacks = function (data) {
     var packs = $("#packs")[0];
     packs.innerHTML = "";
     
-    fullHTML = ""
+    fullHTML = "";
 
     for(i = 0; i < data.length; i++){
         fullHTML += 
         `
-        <div class="card mb-3 shadow m-3-auto" style="width: 18rem;">
+        <div class="card mb-3 shadow m-3">
             <div class="${data[i].free ? "" : "bg-second"} card-header text-center">
             <h4 class="my-0 font-weight-normal">${data[i].free ? "Free" : "Pro"}</h4>
             </div>
