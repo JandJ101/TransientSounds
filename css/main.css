@@ -54,6 +54,15 @@ body{
 }
 
 #mainCarousel .carousel-item{
-    height: 300px;
+    height: calc(100vh - 50px);
     background-color: grey;
+}
+
+#mainCarousel .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+#mainCarousel .carousel-item h3 {
+    text-shadow: 2px 2px rgba(0, 0, 0, .2);
 }

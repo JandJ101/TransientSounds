@@ -19,9 +19,9 @@ nav.nav = `
             <li class="nav-item" id="packsLink">
               <a class="nav-link" href="/sample-packs.html">SMAPLE PACKS</a>
             </li>
-            <li class="nav-item" id="freeLink">
+            <!--<li class="nav-item" id="freeLink">
                 <a class="nav-link" href="#">FREE PACKS</a>
-              </li>
+              </li>--!>
               <li class="nav-item" id="aboutLink">
                 <a class="nav-link" href="/about.html">ABOUT</a>
               </li>
