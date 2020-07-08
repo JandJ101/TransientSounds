@@ -29,13 +29,13 @@ var listPacks = function (data) {
             <div class="imgContainer" style="background: url(${data[i].image});">
             </div>
             <div class="card-body">
-            <h5 class="card-title">${data[i].name}</h5>
-            <p class="card-text">${data[i].description}</p>
+            <h4 class="card-title">${data[i].name}</h4>
+            <p class="card-text text-left">${data[i].description}</p>
             
             </div>
             <div class="card-footer text-muted">
             <p class="text-muted">${data[i].sampleNum} Samples</p>
-            <a href="${data[i].gumroad}" target="_blank" class="btn btn-primary">BUY NOW</a>
+            <a href="${data[i].gumroad}" target="_blank" class="btn btn-primary">GET NOW</a>
             </div>
         </div>
         `;
