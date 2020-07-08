@@ -7,6 +7,10 @@ body{
     margin: 0 0 100px;
 }
 
+.bg-primary{
+    background-color: black !important;
+}
+
 #footer{
     position: absolute;
     left: 0;
