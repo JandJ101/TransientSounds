@@ -22,7 +22,10 @@ var listPacks = function (data) {
     for(i = 0; i < data.length; i++){
         fullHTML += 
         `
-        <div class="card" style="width: 18rem;">
+        <div class="card mb-4 shadow-sm" style="width: 18rem;">
+            <div class="${data[i].free ? "" : "bg-second"} card-header text-center">
+            <h4 class="my-0 font-weight-normal">${data[i].free ? "Free" : "Pro"}</h4>
+            </div>
             <img src="${data[i].image}" class="card-img-top" alt="${data[i].name}">
             <div class="card-body">
             <h5 class="card-title">${data[i].name}</h5>

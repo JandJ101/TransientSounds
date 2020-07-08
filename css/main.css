@@ -7,8 +7,16 @@ body{
     margin: 0 0 100px;
 }
 
+.hidden{
+    display: none;
+}
+
+/*colors*/
 .bg-primary{
     background-color: black !important;
+}
+.bg-second{
+    background-color:#3296ff;
 }
 
 #footer{
