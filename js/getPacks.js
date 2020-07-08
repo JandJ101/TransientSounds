@@ -9,7 +9,6 @@ $(document).ready(function(){
       }).then(function(res){
             getPack.data = res.data;
             listPacks(res.data);
-            console.log(res.data)
       });  
 });
 
@@ -34,7 +33,7 @@ var listPacks = function (data) {
             
             </div>
             <div class="card-footer text-muted">
-            <p class="text-muted">${data[i].sampleNum} Samples</p>
+            <p class="text-muted">${data[i].sampleNum} Samples For ${data[i].free ? "Free" : "$" + data[i].price}</p>
             <a href="${data[i].gumroad}" target="_blank" class="btn btn-primary">GET NOW</a>
             </div>
         </div>

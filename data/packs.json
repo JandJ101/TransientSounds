@@ -4,6 +4,7 @@
         "name": "Future Fire 1",
         "description": "'Future Fire' is a collection of Sounds designed to take your music production to another level. Containing everything from crispy percussion to beautiful pads, this versatile pack will prove to be helpful time and time again.",
         "sampleNum": "430+",
+        "price": "6",
         "image": "https://static-2.gumroad.com/res/gumroad/4556862719049/asset_previews/edd58af8b442eaaf639e851affa1b033/retina/render_20pack_2014.png",
         "gumroad": "https://gumroad.com/l/futurefirepack",
         "free": false
@@ -13,6 +14,7 @@
         "name": "Waves",
         "description": "A small starter pack to help you get started making Future Bass or Future Pop.",
         "sampleNum": "30+",
+        "price": "0",
         "image": "/img/carousel/carousel2.jpg",
         "gumroad": "https://gumroad.com/l/futurefirepack",
         "free": true
