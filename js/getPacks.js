@@ -1,22 +1,37 @@
 var getPack = {};
 
-getPack.url = "https://api.gumroad.com/v2/products"
-getPack.access_token = " 24675761580d0d599399457c7f03aeb81d745da3d193c4b0dfb74c3591dbf97f"
+getPack.url = `${window.location.origin}/data/packs.json`
 
-// axios.get(getPack.url, {
-//       access_token = "3ce79a8ad2a8d300b607de5abb325711aa896612ae4b09c19ab7c5de64b3a8c8",
-//   }).then(
-//     function (res){
-//         console.log(res)
-//     }
-// )
+$(document).ready(function(){
+    axios({
+        method: 'get',
+        url: getPack.url,
+      }).then(function(res){
+            getPack.data = res.data;
+            listPacks(res.data);
+            console.log(res.data)
+      });  
+});
 
+var listPacks = function (data) {
+    var packs = $("#packs")[0];
+    packs.innerHTML = "";
+    
+    fullHTML = ""
 
-axios({
-    method: 'get',
-    url: getPack.url,
-    headers: {}, 
-    data: `access_token=${getPack.access_token}`
-  }).then(function(res){
-        console.log(res);
-  });
+    for(i = 0; i < data.length; i++){
+        fullHTML += 
+        `
+        <div class="card" style="width: 18rem;">
+            <img src="${data[i].image}" class="card-img-top" alt="${data[i].name}">
+            <div class="card-body">
+            <h5 class="card-title">${data[i].name}</h5>
+            <p class="card-text">${data[i].description}</p>
+            <a href="${data[i].gumroad}" target="_blank" class="btn btn-primary">BUY NOW</a>
+            </div>
+        </div>
+        `;
+    }
+    packs.innerHTML = fullHTML;
+
+};
