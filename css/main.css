@@ -5,6 +5,7 @@ html {
 
 body {
     margin: 0 0 100px;
+    width: 100%;
 }
 
 .hidden {
@@ -89,12 +90,6 @@ body {
 
 .ytembedContainer {
     max-width: 40rem;
-}
-
-
-
-#packsContainer {
-    max-width: 70%;
 }
 
 #packs .imgContainer {
