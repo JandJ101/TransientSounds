@@ -1,0 +1,23 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin: 0 0 100px;
+}
+
+#footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#footer a {
+    text-align: center;
+}
+
+#footer img{
+    height: 25px;
+}
