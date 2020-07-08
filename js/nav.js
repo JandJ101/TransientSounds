@@ -26,7 +26,7 @@ nav.nav = `
             
           </ul>
         
-          <button onclick="window.open('https://gumroad.com/transientsounds/');" class="btn btn-outline-light my-2 my-sm-0" type="submit">Shop Now</button>
+          <button onclick="window.open('https://gumroad.com/transientsounds/');" class="btn btn-outline-light my-2 my-sm-0" type="submit">SHOP NOW</button>
         </div>
 `;
 

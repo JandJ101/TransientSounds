@@ -16,7 +16,8 @@ body{
     background-color: black !important;
 }
 .bg-second{
-    background-color:#3296ff;
+    background-color:#007bff;
+    color: white;
 }
 
 #footer{
@@ -66,3 +67,23 @@ body{
 #mainCarousel .carousel-item h3 {
     text-shadow: 2px 2px rgba(0, 0, 0, .2);
 }
+#packsContainer {
+    max-width: 60%;
+}
+
+#packs .imgContainer {
+    width:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    background-position: center !important; /* Center the image */
+    background-repeat: no-repeat !important; /* Do not repeat the image */
+    background-size: cover !important;
+}
+
+#packs .imgContainer:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
