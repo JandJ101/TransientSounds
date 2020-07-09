@@ -1,6 +1,11 @@
 var getPack = {};
 
-getPack.url = `${window.location.origin}/data/packs.json`
+if (toString(window.location).indexOf('github') > -1) {
+    getPack.url = `${window.location.origin}/TransientSound/data/packs.json`;
+
+} else {
+    getPack.url = `${window.location.origin}/data/packs.json`;
+}
 
 $(document).ready(function(){
     axios({
