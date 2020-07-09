@@ -1,6 +1,6 @@
 var getPack = {};
 
-if (toString(window.location).indexOf('github') > -1) {
+if (window.location.href.indexOf("github") > - 1) {
     getPack.url = `${window.location.origin}/TransientSound/data/packs.json`;
 
 } else {
