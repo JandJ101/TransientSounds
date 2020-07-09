@@ -15,7 +15,7 @@
         "description": "A starter pack with the essentials for creating Future Bass or other Electronic genres.",
         "sampleNum": "70",
         "price": "0",
-        "image": "/img/carousel/carousel2.jpg",
+        "image": "img/carousel/carousel2.jpg",
         "gumroad": "https://gum.co/futurefirepack",
         "free": true
     }
