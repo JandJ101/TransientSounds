@@ -1,7 +1,7 @@
 var getPack = {};
 
 if (window.location.href.indexOf("github") > - 1) {
-    getPack.url = `${window.location.origin}/TransientSound/data/packs.json`;
+    getPack.url = `${window.location.origin}/TransientSounds/data/packs.json`;
 
 } else {
     getPack.url = `${window.location.origin}/data/packs.json`;
