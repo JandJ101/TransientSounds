@@ -15,7 +15,7 @@ nav.nav = `
               <a class="nav-link" href="/">HOME</a>
             </li>
             <li class="nav-item" id="packsLink">
-              <a class="nav-link" href="sample-packs.html">SMAPLE PACKS</a>
+              <a class="nav-link" href="sample-packs.html">SAMPLE PACKS</a>
             </li>
             <!--<li class="nav-item" id="freeLink">
                 <a class="nav-link" href="#">FREE PACKS</a>
