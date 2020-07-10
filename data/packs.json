@@ -8,15 +8,5 @@
         "image": "https://static-2.gumroad.com/res/gumroad/4556862719049/asset_previews/edd58af8b442eaaf639e851affa1b033/retina/render_20pack_2014.png",
         "gumroad": "https://gum.co/futurefirepack",
         "free": false
-    },
-    {
-        "id": 1,
-        "name": "Waves",
-        "description": "A starter pack with the essentials for creating Future Bass or other Electronic genres.",
-        "sampleNum": "70",
-        "price": "0",
-        "image": "img/carousel/carousel2.jpg",
-        "gumroad": "https://gum.co/futurefirepack",
-        "free": true
     }
 ]
