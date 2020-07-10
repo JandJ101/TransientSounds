@@ -12,6 +12,14 @@ body {
     display: none;
 }
 
+nav .nav-item {
+    transition: 3s;
+}
+
+@font-face {
+    font-display: swap;
+  }
+
 /*colors*/
 .bg-primary {
     background-color: black !important;
