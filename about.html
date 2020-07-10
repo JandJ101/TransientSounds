@@ -11,11 +11,8 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <!--JS-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
+  <script src="js/jquery-3.5.1.min.js"></script>
   <script src="https://gumroad.com/js/gumroad-embed.js"></script>
-  <script data-cfasync="false" src="js/nav.js"></script>
 
   <script>
     $(document).ready(function () {
@@ -37,7 +34,35 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary"></nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="/">
+      <img src="/img/favicon/apple-touch-icon.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="" loading="lazy">TRANSIENT SOUNDS</a>
+  
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" id="homeLink">
+        <a class="nav-link" href="/">HOME</a>
+      </li>
+      <li class="nav-item" id="packsLink">
+        <a class="nav-link" href="/sample-packs">SAMPLE PACKS</a>
+      </li>
+      <!--<li class="nav-item" id="freeLink">
+          <a class="nav-link" href="#">FREE PACKS</a>
+        </li>-->
+        <li class="nav-item" id="aboutLink">
+          <a class="nav-link" href="/about">ABOUT</a>
+        </li>
+      
+    </ul>
+  
+    <button onclick="window.open('https://gumroad.com/transientsounds/');" class="btn btn-outline-light my-2 my-sm-0" type="submit">SHOP NOW</button>
+  </div>
+  </nav>
 
   <div class="container mb-5">
     <h6 class="m-4">We work hard to provide inspiring, top-quality, royalty-free samples to producers everywhere.</h6>
@@ -64,7 +89,17 @@
 </div>
 
   <!-- Footer -->
-  <div id="footer" class="container-fluid bg-primary pt-3 pb-0 px-5"></div>
+  <div id="footer" class="container-fluid bg-primary pt-3 pb-0 px-5">
+    <div class="row" id="socialLinks">
+      <a class="col" href="https://gumroad.com/transientsounds/" target="_blank">
+          <img src="img/social/gumroad.png" alt="Gumroad" />
+      </a>
+      <a class="col" href="https://www.instagram.com/transient_sounds/" target="_blank"> <img src="img/social/instagram.png" alt="Instagram" /> </a>
+      <a class="col" href="https://soundcloud.com/transientsounds321/" target="_blank"> <img src="img/social/soundcloud.png" alt="SoundCloud" /> </a>
+      <a class="col" href="https://www.youtube.com/channel/UCST-0wwXbYwRKO0Yd9M37Hg" target="_blank"> <img src="img/social/youtube.png" alt="YouTube" /> </a>
+  </div>
+  <div class="bg-primary bg-darker align-items-center"><p class="text-center py-3 text-white m-0">© 2020 Copyright: Transient Sound</p></div>
+  </div>
   <!-- Footer -->
 
   <!-- Optional JavaScript -->
